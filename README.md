@@ -39,8 +39,29 @@ A machine learning web application that predicts a student's **Maths Score** bas
 
 
 ---
+## ⚙️ Workflow
 
-## 📂 Project Structure
+### ✅ Exploratory Data Analysis (EDA)
+- Distribution plots to understand variable spread
+- Univariate and multivariate analysis of feature columns
+
+### ✅ Preprocessing
+- Applied `StandardScaler` for feature scaling
+- Used `OneHotEncoder` for categorical features
+- Combined preprocessing using `ColumnTransformer`
+- Hyperparameter tuning performed with `GridSearchCV`
+
+### ✅ Model Training & Evaluation
+- Models tried:
+  - Random Forest Regressor
+  - Decision Tree Regressor
+  - Gradient Boosting Regressor
+  - Linear Regression ✅
+  - XGBoost Regressor
+  - CatBoost Regressor
+  - AdaBoost Regressor
+- **Best Model**: Linear Regression  
+  - Accuracy (R²): **0.88**
 
 ```bash
 student-performance-predictor/
@@ -78,8 +99,8 @@ student-performance-predictor/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/fire-fwi-predictor.git
-cd fire-fwi-predictor
+git clone https://github.com/Satyam255/Student_Performance_Indicator.git
+cd Student_Performance-Indicator
 ```
 2. Install dependencies
 
@@ -90,7 +111,7 @@ pip install -r requirements.txt
 3. Run the Flask app
 ```bash
 
-python app.py
+python application.py
 ```
 4. Open in browser
 ```bash
