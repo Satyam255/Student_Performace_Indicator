@@ -67,7 +67,7 @@ A machine learning web application that predicts a student's **Maths Score** bas
 student-performance-predictor/
 │
 ├── artifacts/ # Stores intermediate and final ML artifacts (e.g., models, transformers)
-├── catboost_info/ # CatBoost internal files (if CatBoost used)
+├── catboost_info/ # CatBoost internal files 
 ├── logs/ # Logging outputs
 ├── mlprojects.egg-info/ # Packaging metadata
 ├── notebook/ # Jupyter notebooks for EDA, experimentation
